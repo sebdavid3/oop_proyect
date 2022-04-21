@@ -6,3 +6,7 @@
 
 ## Diagrama UML
 ![uml](https://user-images.githubusercontent.com/98895197/164504029-1d743950-f192-4bd2-96e7-8aecc71397eb.png)
+
+
+### Desarrollo 
+Actualmente seguimos presentando problema en la implementación del primer requerimiento, lo resolveremos en los siguientes dias
