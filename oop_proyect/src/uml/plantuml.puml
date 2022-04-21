@@ -1,0 +1,40 @@
+@startuml
+
+usuarios --> admin
+usuarios --> miembro
+
+consulta --> gatos
+
+class usuarios{
+user:
+password:
+}
+
+class gatos{
+Ubicación:
+Sexo:
+Tratamiento:
+Amabilidad:
+Adopcion:
+}
+
+class admin{
+user:
+password:
+}
+
+class miembro{
+user:
+password:
+}
+
+class consulta{
+fecha:
+hora:
+user:
+----
+consulta(sexo,nombre,etc..)
+edicion(sexo,nombre,etc..)
+}
+
+@enduml
