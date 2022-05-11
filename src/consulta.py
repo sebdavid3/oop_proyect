@@ -1,6 +1,6 @@
 import usuarios
 import gatos
-import gspread
+import xlrd
 
 class consulta:
     fecha = None
@@ -10,12 +10,5 @@ class consulta:
         pass
 
 
-
-gc = gspread.service_account(filename='oop_proyect_a07fd0e4b4ad.json')
-
-sh = gc.open("oop_proyect")
-worksheet = sh.get_worksheet(0)
-
-worksheet.update("A1","HOLA")
 
 
