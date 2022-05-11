@@ -1,6 +1,5 @@
 import usuarios
 import gatos
-import xlrd
 
 class consulta:
     fecha = None
